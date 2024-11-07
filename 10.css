@@ -1,0 +1,24 @@
+body{
+    
+     width:auto;
+     height:auto;
+      border:10cap solid black;
+      padding:10px;
+      
+}
+#a1{
+     background-color: pink;
+    
+}
+#a2{
+     background-color: gray;
+}
+#a4{
+     background-color:rgb(247, 78, 78) ;
+}
+#a5{
+     background-color: chartreuse;
+}
+#a6{
+     background-color: rgba(0, 255, 255, 0.679);
+}

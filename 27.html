@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Menu (Float)</title>
+    <style>
+        ul {
+            list-style-type: none;  /* Removes default bullets */
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            float: left;  /* Aligns list items horizontally */
+            margin-right: 20px;  /* Adds space between menu items */
+        }
+        a {
+            text-decoration: none;  /* Removes underline */
+            color: black;  /* Text color */
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        a:hover {
+            background-color: lightgray;  /* Background color on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Horizontal Menu with Float</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>
